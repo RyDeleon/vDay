@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+  background-color: #F8E7F6;
+}
+
+.question-title {
+  font-family: 'Rochester', serif;
+  font-size: 10rem;
+  margin:  2%;
+  color: #DD88CF;
+}
+
+.container {
+  display: flex;
+  width: 50%;
+  margin: auto;
+}
+
+.yesno {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  font-family: "Luckiest Guy", serif;
+  font-weight: 400;
+  color: #DD88CF;
+  font-size: 7rem
+}
+
+.btn-yes {
+  margin: 25px; 
+  height: 250px;
+  width: 250px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.btn-no {
+  margin: 25px; 
+  height: 250px;
+  width: 250px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.no-checkbox {
+  background-color: rgb(240, 92, 92);
+}
+
+.yes-checkbox {
+  background-color: pink;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.hover {
+  background-color: white;
+}
+
+.question-title-change-no {
+  font-family: "Luckiest Guy", serif;
+  font-size: 9rem;
+  margin:  5%;
+  color: #DD88CF;
+}
